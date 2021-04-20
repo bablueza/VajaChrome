@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "VajaChrome",
+  "description": "Thai-Eng Speech Synthesis.",
+  "version": "1.0",
+  "icons": { "16": "icon.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+   "tabs",
+   "chrome://favicon/",
+   "http://*/*", 
+   "https://*/*"
+  ],"content_scripts": [
+  {
+    "matches": ["http://*/*"],
+    "js": ["selection.js"],
+    "run_at": "document_start",
+    "all_frames": true
+  }
+ ]
+}
