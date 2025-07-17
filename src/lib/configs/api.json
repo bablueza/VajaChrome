@@ -1,0 +1,7 @@
+{
+    "vaja_url": "http://thaispeech-tts-riva.openservice.in.th/vaja_synth/",
+    "t2p_url": "http://thaispeech-tts-riva.openservice.in.th/t2p/",
+    "socket_url": "http://thaispeech-riva.openservice.in.th:9005",
+    "speaker" : "poom"
+    
+}
