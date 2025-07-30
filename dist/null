@@ -5,11 +5,11 @@
 		<link rel="icon" href="/icon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link rel="modulepreload" href="/app/immutable/entry/start.B1Xr7d6l.js">
-		<link rel="modulepreload" href="/app/immutable/chunks/GXVL87pi.js">
+		<link rel="modulepreload" href="/app/immutable/entry/start.ChTTn0hR.js">
+		<link rel="modulepreload" href="/app/immutable/chunks/Di7MwOPS.js">
 		<link rel="modulepreload" href="/app/immutable/chunks/DRVc0eXD.js">
 		<link rel="modulepreload" href="/app/immutable/chunks/DaQcMSOs.js">
-		<link rel="modulepreload" href="/app/immutable/entry/app.SIFkw0rl.js">
+		<link rel="modulepreload" href="/app/immutable/entry/app.CQGq44ZE.js">
 		<link rel="modulepreload" href="/app/immutable/chunks/CWj6FrbW.js">
 		<link rel="modulepreload" href="/app/immutable/chunks/C-YWiG2v.js">
 		<link rel="modulepreload" href="/app/immutable/chunks/D-PibB20.js">
@@ -18,15 +18,15 @@
 		<div style="display: contents">
 			<script>
 				{
-					__sveltekit_7aez23 = {
+					__sveltekit_x54ykz = {
 						base: ""
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("/app/immutable/entry/start.B1Xr7d6l.js"),
-						import("/app/immutable/entry/app.SIFkw0rl.js")
+						import("/app/immutable/entry/start.ChTTn0hR.js"),
+						import("/app/immutable/entry/app.CQGq44ZE.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
